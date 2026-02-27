@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1772192465 source:c:\users\asus\onedrive\desktop\cpp clg\practical3_1\main.cpp
+	<iostream>
+	<string>
+	"Employee.h"
+
+1772192625 c:\users\asus\onedrive\desktop\cpp clg\practical3_1\include\employee.h
+	<string>
+
+1772192605 source:c:\users\asus\onedrive\desktop\cpp clg\practical3_1\src\employee.cpp
+	"Employee.h"
+	<iostream>
+

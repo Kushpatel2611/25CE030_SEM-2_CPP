@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1771584193 source:c:\users\asus\onedrive\desktop\cpp clg\practicals\main.cpp
+	"loan_acct.h"
+
+1771584193 c:\users\asus\onedrive\desktop\cpp clg\practicals\include\loan_acct.h
+	<iostream>
+	<string>
+	<cmath>
+
+1771584193 source:c:\users\asus\onedrive\desktop\cpp clg\practicals\src\loan_acct.cpp
+	"loan_acct.h"
+
