@@ -1,0 +1,44 @@
+#include "merge.h"
+
+void inputArray(int arr[], int size)
+{
+    for (int i = 0; i < size; i++)
+    {
+        cin >> arr[i];
+    }
+}
+
+void mergeArray(int a[], int b[], int c[], int n, int m)
+{
+    int i = 0, j = 0, k = 0;
+
+    while (i < n && j < m)
+    {
+        if (a[i] < b[j])
+        {
+            c[k++] = a[i++];
+        }
+        else
+        {
+            c[k++] = b[j++];
+        }
+    }
+
+    while (i < n)
+    {
+        c[k++] = a[i++];
+    }
+
+    while (j < m)
+    {
+        c[k++] = b[j++];
+    }
+}
+
+void displayArray(int arr[], int size)
+{
+    for (int i = 0; i < size; i++)
+    {
+        cout << arr[i] << " ";
+    }
+}
