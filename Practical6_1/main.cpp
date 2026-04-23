@@ -1,30 +1,9 @@
 #include <iostream>
 #include <vector>
 #include <iomanip>
+#include "Shape.h"
 
 using namespace std;
-
-class Shape
-{
-protected:
-    double radius;
-public:
-    Shape(double r = 0) : radius(r) {}
-    double getRadius() const
-    {
-        return radius;
-    }
-};
-
-class Circle : public Shape
-{
-public:
-    Circle(double r = 0) : Shape(r) {}
-    double calculateArea() const
-    {
-        return 3.14 * radius * radius;
-    }
-};
 
 int main()
 {
