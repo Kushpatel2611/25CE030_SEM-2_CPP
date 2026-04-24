@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-    
+
     StudentFormat students[] = {
         StudentFormat("Kush", 88.5, 5000.00),
         StudentFormat("Zeel", 92.0, 4500.50),
@@ -17,5 +17,5 @@ int main() {
         students[i].displayData();
     }
 
-    return 0;
+    retur   n 0;
 }
